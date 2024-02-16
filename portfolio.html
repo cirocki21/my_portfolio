@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Ryan's Portfolio</h1>
+        <ul>
+          <li><a href="./portfolio.html">Home</a></li>
+          <li><a href="https://www.lego.com/en-us">Favorite Website</a></li>
+          <li><a hre="#">Contact Me</a></li>
+          <li><a href="https://github.com/cirocki21/python-prework">My Github</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="main-articles">
+        <article>
+          <h3>Who am I?</h3>
+          <p>This is a picture of my dog.</p>
+          <img
+            class="image-fit"
+            alt="Dog on a rock"
+            src="images/Charles.jpeg"
+          />
+          <h3>Why Software Engineer</h3>
+          <p>I want to get into software engineer cause I think it is so cool with all the endless possibilities. Everything seems like a puzzzle.
+            When you get to play with stuff and trying things out, it is amazing when it all comes together. I know that in this role you will have frustrating 
+            moments but that one moment when it all comes together is unmatched. It's almost euphoric having your code come to together or figuring something out. 
+            I think this is a career that keeps you super intresed in a wide range of things. 
+          </p>
+        </article>
+        <article>
+          <h2>My happy place (or close to it)</h2>
+          <img
+            class="image-fit"
+            alt="Mountain Lake"
+            src="Images/mountain_lake.jpeg"
+          />
+          <h3>About Me</h3>
+          <p>I was born and raised in Colorado. The best job I have ever had in my life was being a camp counselor at a summer camp in the mountains.
+            After I graduated from college I enlisted in the U.S. Navy. I spent 6 years in the Navy working on a submarine. I worled closely with the Nuclear Reactor on
+            the submarine and controlled chemistry. After the Navy I moved back to Colorado to become a supervisor. I did that for two years until I realized the housing the market
+            was very bleak. So my wife and I decided to move to North Carolina where we are starting our new life. With that move comes career changes, so this is on of my reasons
+            for switching to coding temple and trying something new. 
+          </p>
+        </article>
+      </div>
+      <div id="side-bar">
+        <article>
+          <img id="prof-pic" alt="'Myself" src="Images/me.jpeg" />
+          <h2>Ryan Trujillo</h2>
+        </article>
+        <article>
+          <h2>Contact Me</h2>
+          <form action="'mailto:rtrujillo21@me.com" method="post">
+            <div>
+              <label for="name_field">Your Full name</label>
+            </div>
+            <input
+              is="name_feild"
+              name="name_field"
+              type="text"
+              plaveholder="Name"
+            />
+            <div>
+              <label for="email-field">Your Email</label>
+            </div>
+            <input
+              id="email-field"
+              name="email_field"
+              type="text"
+              plaveholder="someone@gmail.com"
+            />
+            <div>
+              <label for="message-field"></label>
+            </div>
+            <textarea
+              id="message-field"
+              name="message-field"
+              rows="s"
+              placeholder="Write your ideas here"
+            ></textarea>
+            <div>
+              <button type="submit">Send Message</button>
+            </div>
+            <div>
+              <h2>Favorite Movies:</h2>
+              <ul>
+                <li>Miracle</li>
+                <li>Saving Private Ryan</li>
+                <li>Star Wars</li>
+                <li>Superbad</li>
+                <li>Lord of the Rings</li>
+                <li>The other guys</li>
+              </ul>
+            </div>
+          </form>
+        </article>
+      </div>
+    </main>
+    <footer>&copy;2024 Coding Temple, Inc.</footer>
+  </body>
+</html>
